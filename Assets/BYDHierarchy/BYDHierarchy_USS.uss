@@ -1,0 +1,70 @@
+.hierarchy
+{
+    background-color: #141414;
+}
+
+#unity-multi-column-view__row-container
+{
+    transition: rotate ease 0.1s, background-color ease 0.1s, scale ease 0.1s, transform-origin ease 0.1s;
+}
+
+.unity-multi-column-view__frozen-column-background
+{
+    background-color: #202020;
+}
+
+#unity-multi-column-view__row-container:hover
+{
+    /* rotate: -0.8deg; */
+    scale: 1.04;
+}
+
+#unity-multi-column-view__row-container:checked
+{
+    /* rotate: -1deg; */
+    transform-origin: left;
+    scale: 1.05;
+}
+
+.unity-tree-view__item 
+{
+    transition: opacity ease 0.2s;
+}
+
+.unity-disabled
+{
+    opacity: 0.2;
+}
+
+
+.unity-multi-column-view__row-container .unity-collection-view__item
+{
+    background-color: #141414;
+}
+
+.unity-collection-view__item--alternative-background
+{
+    background-color: #161616;
+}
+
+.unity-collection-view__item
+{
+    border-radius: 5px; 
+}
+
+#unity-multi-column-view__row-container:checked
+{
+    background-color: #276983;
+}
+
+/* //! NOT ALLOWED YET?  */
+/* .hierarchy-item__left-container .unity-foldout__toggle .unity-toggle__input .unity-toggle__checkmark
+{
+    opacity: 1;
+    background-image: url("/Assets/BYDHierarchy/Resources/Arrow.png");
+} */
+
+.hierarchy-item__prefab-normal-node .hierarchy-item__container .hierarchy-item__left-container .hierarchy-item__overlay-icon
+{
+    margin-right: 3px;
+}

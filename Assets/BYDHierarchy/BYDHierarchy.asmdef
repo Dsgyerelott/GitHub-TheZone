@@ -1,0 +1,10 @@
+{
+  "name": "BYDHierarchy",
+  "rootNamespace": "",
+  "references": [
+    "UnityEngine.HierarchyModule"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

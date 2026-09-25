@@ -1,0 +1,52 @@
+.Workflow_Button
+{
+    width: 25px;
+    height: 25px;
+    transition: scale ease 0.2s;
+    /* background-image: url("/Assets/BYDScene/Resources/Hierarchy.png"); */
+}
+
+.Workflow_Button:hover
+{
+    /* scale: 1.05; */
+}
+
+.Workflow_Button#Hierarchy
+{
+    background-image: url("/Assets/BYDScene/Resources/Hierarchy.png");
+}
+
+.Workflow_Button#Inspector
+{
+    background-image: url("/Assets/BYDScene/Resources/Inspector.png");
+}
+
+.Workflow_Button#Project
+{
+    background-image: url("/Assets/BYDScene/Resources/Project.png");
+}
+
+.Workflow_Button#Game
+{
+    background-image: url("/Assets/BYDScene/Resources/Game.png");
+}
+
+.Workflow_Button#Console
+{
+    background-image: url("/Assets/BYDScene/Resources/Console.png");
+}
+
+.Workflow_Button#HierarchyAndInspector
+{
+    width: 72px;
+}
+
+.Workflow_Button#ProjectAndInspector
+{
+    width: 72px;
+}
+
+.Workflow_Button#CloseButton
+{
+    width: 150px;
+}
